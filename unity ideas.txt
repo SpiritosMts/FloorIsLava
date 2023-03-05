@@ -1,0 +1,1 @@
+-new game : physics exemples --> circle collider --> you should not destroy the circle

@@ -1,0 +1,6 @@
+Draw your path to avoid lava and obstacles
+
+this game has :
+ Level mode (37 level) which get harder each time (take the star to complete each level)
+ Endless mode (2 types) which give you the choice to swipe or draw lines 
+ Shop menu that allow you to buy trails and balls with gems you got

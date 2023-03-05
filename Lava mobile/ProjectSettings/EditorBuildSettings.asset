@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Main_Menu.unity
+    guid: d15c6ff998a21f24d8a83d3c11a24a5d
+  - enabled: 1
+    path: Assets/Level_1.unity
+    guid: da4748aef95def14c8dc1f9e5c860c28
+  - enabled: 1
+    path: Assets/Level_2.unity
+    guid: f7d7d913c009abd488e66cf2f429cabf
+  - enabled: 1
+    path: Assets/Level_3.unity
+    guid: badb1be81f902884cb0ccdd056b73097
+  - enabled: 1
+    path: Assets/Level_4.unity
+    guid: f188d59de471c6e418ef72368ec5fb4d
+  - enabled: 1
+    path: Assets/Level_5.unity
+    guid: 55c63255f37a75e4b858f7e6646eb5f9
+  - enabled: 1
+    path: Assets/Level_6.unity
+    guid: 29f53620bf7b7a4419b76589f8b953cd
+  - enabled: 1
+    path: Assets/Level_7.unity
+    guid: d92e16d1725b55142a277b8f30c88ec4
+  - enabled: 1
+    path: Assets/Level_8.unity
+    guid: 5ff80c5d6541756438d89793e9ca8a47
+  - enabled: 1
+    path: Assets/Level_9.unity
+    guid: 69e91bb5821d8924a91037af7c6b66ff
+  - enabled: 1
+    path: Assets/Level_10.unity
+    guid: 335f2f4d1fef5c54496d9c392a69f2b9
+  - enabled: 1
+    path: Assets/Level_11.unity
+    guid: 70c328c899827f242984352a5b0e08cc
+  - enabled: 1
+    path: Assets/Level_12.unity
+    guid: 5f30ef498d962ae4e9a49550eed928ae
+  - enabled: 1
+    path: Assets/Level_13.unity
+    guid: e2772b1b3b3e5e64f901e681e7b3d8dd
+  - enabled: 1
+    path: Assets/Level_14.unity
+    guid: 4e9743871d4e66c42a502c5caa16d9f3
+  - enabled: 1
+    path: Assets/Level_15.unity
+    guid: 552bdf4f1c27bab44b4f60255f6b7e9f
+  - enabled: 1
+    path: Assets/Level_16.unity
+    guid: 6ec1666e6cfe5c24a96c119bf9b68459
+  - enabled: 1
+    path: Assets/Level_17.unity
+    guid: 457f68cca3e4d094e8d84deaf1634a5b
+  - enabled: 1
+    path: Assets/Level_18.unity
+    guid: 9868cdae76444c74cbaaa3e9c817eae0
+  - enabled: 1
+    path: Assets/Level_19.unity
+    guid: e5d76041d3a48784595770342c0f4b29
+  - enabled: 1
+    path: Assets/Level_20.unity
+    guid: 99da3be8b6841fb47909a571b1140924
+  - enabled: 1
+    path: Assets/Level_21.unity
+    guid: 6814f44722ce2d940bca667c58036a6e
+  - enabled: 1
+    path: Assets/Level_22.unity
+    guid: 605a365f88b9e254fbdbff9a921ee0af
+  - enabled: 1
+    path: Assets/Level_23.unity
+    guid: 7900b8e927ad898459c508437edd0891
+  - enabled: 1
+    path: Assets/Level_24.unity
+    guid: 3d7da603f0c5f5342a72f9b8b9dea938
+  - enabled: 1
+    path: Assets/Level_25.unity
+    guid: 9187ec120cedcf048a9130f101718d6f
+  - enabled: 1
+    path: Assets/Level_26.unity
+    guid: aeceaa86047870b429e85b1faadaa9f2
+  - enabled: 1
+    path: Assets/Level_27.unity
+    guid: a0fc2548e516a8842aaf62739e94d634
+  - enabled: 1
+    path: Assets/Level_28.unity
+    guid: 4561b9ffac77f6e4b977a87010b9d034
+  - enabled: 1
+    path: Assets/Level_29.unity
+    guid: 588d13e3b9473254da9157c88ce067f9
+  - enabled: 1
+    path: Assets/Level_30.unity
+    guid: 06d89a73dcb9cf14e83d7d0bb5d7bc77
+  - enabled: 1
+    path: Assets/Level_31.unity
+    guid: 846b4066fa3f6d642b3f1f853ba78a5f
+  - enabled: 1
+    path: Assets/Level_32.unity
+    guid: 400756387566f8f4b89b9c51e7b5aa5d
+  - enabled: 1
+    path: Assets/Level_33.unity
+    guid: 7bd6d37d88ffd074cae329c8b28e5fc8
+  - enabled: 1
+    path: Assets/Level_34.unity
+    guid: 8d103b59a789cd849b92597e5507e9b3
+  - enabled: 1
+    path: Assets/Level_35.unity
+    guid: 7f065ec4ae035de4d99ff8e3d24dd76c
+  - enabled: 1
+    path: Assets/Level_36.unity
+    guid: f6570fe2c7f245b4388185f00a62d87a
+  - enabled: 1
+    path: Assets/Level_37.unity
+    guid: 3210734365e44ff468933857c576a126
+  - enabled: 1
+    path: Assets/Levels_List_1.unity
+    guid: f26b03da93f803c4eb2d0b38c591911c
+  - enabled: 1
+    path: Assets/Levels_List_2.unity
+    guid: 50a4c11a8cf7ece429ebeb835561dad3
+  - enabled: 1
+    path: Assets/Levels_List_3.unity
+    guid: 6af6c78187b74c149b11f33a39a74361
+  - enabled: 1
+    path: Assets/p_Endless_mode_draw.unity
+    guid: 61862852d5a8980468354256d6eb0899
+  - enabled: 1
+    path: Assets/p_Endless_mode_swipe.unity
+    guid: 19caba27347acc949bbba2565dc58355
+  - enabled: 1
+    path: Assets/Skins & Trails.unity
+    guid: 7219646837d04ef41a8364ed6341d7c6
+  - enabled: 1
+    path: Assets/Scores.unity
+    guid: 106b6c8af0daa4a4f808fe5d3c671d6a
+  - enabled: 1
+    path: Assets/Skins.unity
+    guid: 1725269c5771ef2419182256f94b3f32
+  - enabled: 1
+    path: Assets/swipe & draw.unity
+    guid: e570d404cdd005a40869be1a149b00d9
+  - enabled: 1
+    path: Assets/s_inAppPurchase.unity
+    guid: a7c63a264eb37a04e988af61f45f4055
+  - enabled: 1
+    path: Assets/Trails.unity
+    guid: cba1144836c4aa948ae64c71c81a2f35
+  m_configObjects: {}

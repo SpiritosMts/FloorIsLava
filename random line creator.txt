@@ -1,0 +1,63 @@
+[SerializeField]
+	private float timeToChange_XY;
+	private float timer;
+	private float ToPassPosition;	
+[SerializeField]
+	private float max_X_pos;
+	[SerializeField]
+	private float min_X_pos;
+void Start()
+{
+timer = timeToChange_XY;
+		ToPassPosition = player.position.x;
+}
+void Update(){
+
+//draw line automatically
+		if (automatic && !Y_manual)
+		{
+			if (once == false)
+			{
+				x_offset = Random.Range(min_X_pos, max_X_pos);
+
+
+				once = true;
+				GameObject _lineGO = Instantiate(linePrefab);
+				activeLine = _lineGO.GetComponent<Line>();
+
+				Vector2 Autopos = new Vector2(player.position.x + x_start_offset, player.position.y + y_start_offset);
+				activeLine.UpdateLine(Autopos);
+
+			}
+			//change y_offset every single time to random Y_position
+			if (timer <= 0f)
+			{
+				//what to do when timer go out
+				//y_offset
+				y_offset = Random.Range(min_Y_pos, max_Y_pos);
+				//x_offset
+
+				float rand_x_offset = Random.Range(min_X_pos, max_X_pos);
+				if (player.position.x > ToPassPosition)
+				{
+					x_offset = rand_x_offset;
+					ToPassPosition = player.position.x + x_offset;
+
+				}
+
+				//reset timer
+				timer = timeToChange_XY;
+			}
+			else
+			{
+				timer -= Time.deltaTime;
+			}
+			//UpdateLine with player position reference
+			if (activeLine != null)
+			{
+
+				Vector2 Autopos = new Vector2(player.position.x + x_offset, player.position.y + y_offset);
+				activeLine.UpdateLine(Autopos);
+			}
+		}
+}
